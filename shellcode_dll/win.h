@@ -1,6 +1,6 @@
 #include <Windows.h>
 
-typedef HMODULE(*pLoadLibrary)	(LPCSTR lpLibFileName);
+typedef HMODULE		(*pLoadLibrary)	(LPCSTR lpLibFileName);
 typedef int		(*pMessageBoxA)	(HWND hWnd, LPCSTR lpText, LPCSTR lpCaption, UINT uType);
 
 typedef struct _WIN32_MODULE
